@@ -120,7 +120,7 @@ async def qoshimcha_handler(message: Message):
 
 @dp.message(F.text == "💻ADMIN💻")
 async def admin_handler(message: Message):
-    await message.answer(f"{"💻ADMIN💻"}\n{"@theDilmuorodov"}")
+    await message.answer(f"{"💻ADMIN💻"}\n{"@theDilmurodov"}")
 
 
 
