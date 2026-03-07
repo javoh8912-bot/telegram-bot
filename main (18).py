@@ -10,7 +10,7 @@ from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
 from dotenv import load_dotenv
 
-TOKEN = getenv["BOT_TOKEN"]
+TOKEN = getenv("BOT_TOKEN")
 
 dp = Dispatcher()
 
